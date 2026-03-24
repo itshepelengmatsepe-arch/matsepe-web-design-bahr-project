@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+    
+    p{ 
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main{
+    margin:40px auto;
+    max-width: 800px;
+    padding: 5% 20px;
+    line-height: 1.8;
+    color: #333;
+}
+   
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+} 
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    align-items:  center;
+     letter-spacing: 2;
+
+}
+.navbar h1{
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0,3s;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #2c3e50;
+    margin: o;
+    padding: 20px 0;
+    
+}
+.navbar a:hover{
+  background-color: #f1c40f
+}
+
+p {
+   margin-bottom: 25px;
+   padding-bottom: 20px;
+   color: #444;
+}
+
+.image-container {
+display: block;
+width: 100%;
+margin:30px;
+max-width: 450px;
+}
+ .responsiveness-img {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0.1);
+    display: block;
+ }
+
+ footer{
+    background-color:#4493a7;
+    position: relative; 
+    z-index: 1000;
+    text-align: center;
+
+ }
+ .benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+ }
+ .benefits-card {
+    flex: 1;
+    min-width: 300px;
+    border: 1px #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+ }
+
+ .btn {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    width: fit-content;
+}
+ 
+
+ 
